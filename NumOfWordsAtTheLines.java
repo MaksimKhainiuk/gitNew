@@ -1,4 +1,3 @@
-package RegularExpression.taskB;
 
 import java.util.Scanner;
 
@@ -21,6 +20,6 @@ public class NumOfWordsAtTheLines {
                 }
             }
         }
-        return ("В этом тексте " + count + " cлов(a)");
+        return ("пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ " + count + " cпїЅпїЅпїЅ(a)");
     }
 }

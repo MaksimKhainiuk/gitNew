@@ -1,4 +1,4 @@
-package RegularExpression.taskB;
+
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -14,10 +14,10 @@ public class VowelsAtTheText {
     }
 
     private static void Vowels(String text) {
-            Pattern p = Pattern.compile("([АОУЭИЫЕЁЯЮаоуэиыеёяю])");
+            Pattern p = Pattern.compile("([пїЅпїЅпїЅпїЅпїЅпїЅЕЁпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ])");
             Matcher m = p.matcher(text);
         while(m.find()) {
-            System.out.printf("гласная буква в этом тексте: %s\n ", m.group());
+            System.out.printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: %s\n ", m.group());
             if (m.group().isEmpty()) break;
         }
     }

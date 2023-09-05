@@ -1,4 +1,3 @@
-package RegularExpression.taskB;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
