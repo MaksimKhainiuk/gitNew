@@ -21,6 +21,6 @@ public class NumOfWordsAtTheLines {
                 }
             }
         }
-        return ("� ���� ������ " + count + " c���(a)");
+        return ("� ���� ������ " + count + " c���(a)"); //windows1251
     }
 }

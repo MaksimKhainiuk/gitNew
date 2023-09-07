@@ -15,10 +15,10 @@ public class VowelsAtTheText {
     }
 
     private static void Vowels(String text) {
-            Pattern p = Pattern.compile("([������Ũ�����������])");
+            Pattern p = Pattern.compile("([������Ũ�����������])");//windows1251
             Matcher m = p.matcher(text);
         while(m.find()) {
-            System.out.printf("������� ����� � ���� ������: %s\n ", m.group());
+            System.out.printf("������� ����� � ���� ������: %s\n ", m.group());//windows1251
             if (m.group().isEmpty()) break;
         }
     }
