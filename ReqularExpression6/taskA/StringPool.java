@@ -1,5 +1,3 @@
-package RegularExpression6.taskA;
-
 import java.util.Scanner;
 
 public class StringPool {
@@ -14,11 +12,11 @@ public class StringPool {
 
         System.out.println("------------------");
 
-        String h = "Дом";
+        String h = "пїЅпїЅпїЅ"; //windows-1251
         System.out.println(h.length());
         String h2 = h.toUpperCase();
         System.out.println(h2);
-        String h3 = h.replace('Д', 'С');
+        String h3 = h.replace('пїЅ', 'пїЅ');//windows-1251
         System.out.println(h3);
 
         System.out.println("------------------");
@@ -27,15 +25,15 @@ public class StringPool {
 
         switch (s) {
             case ("1"):
-                System.out.println("скаляр");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ"); //windows-1251
                 break;
 
             case ("{1, 2, 3}"):
-                System.out.println("вектор");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ"); //windows-1251
                 break;
 
             case ("{{1, 2}, {3, 4}}"):
-                System.out.println("матрица");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"); //windows-1251
                 break;
         }
 
