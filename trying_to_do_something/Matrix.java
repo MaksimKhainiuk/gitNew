@@ -48,9 +48,9 @@ public class Matrix {
         return tmpArr;
     }
     private static void outputMatrix(int[][] tmpArr){
-        for (int i = 0; i < tmpArr.length; i++) {
-            for (int j = 0; j < tmpArr[i].length; j++) {
-                System.out.print(tmpArr[i][j] + "\t ");
+        for (int[] ints : tmpArr) {
+            for (int anInt : ints) {
+                System.out.print(anInt + "\t ");
             }
             System.out.println();
         }
